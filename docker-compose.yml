@@ -1,0 +1,12 @@
+version: "3"
+services:
+  jaeger:
+    image: jaegertracing/all-in-one:latest
+    ports:
+      - "16686:16686" # interface web
+      - "14268:14268" # endpoint de ingestão de traces
+      - "14250:14250" # endpoint de ingestão gRPC
+      - "9411:9411" # Zipkin compatible endpoint
+    environment:
+      - COLLECTOR_ZIPKIN_HOST_PORT=:9411
+      - COLLECTOR_OTLP_ENABLED=true
