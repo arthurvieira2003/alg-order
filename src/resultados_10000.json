@@ -1,0 +1,112 @@
+[
+  {
+    "algorithmName": "Counting Sort",
+    "stats": {
+      "executionTime": 0.22532000000010158,
+      "comparisons": 19998,
+      "swaps": 10000,
+      "arrayLength": 10000
+    },
+    "isSorted": true
+  },
+  {
+    "algorithmName": "Quick Sort",
+    "stats": {
+      "executionTime": 1.0315200000002733,
+      "comparisons": 146312,
+      "swaps": 64798,
+      "arrayLength": 10000
+    },
+    "isSorted": true
+  },
+  {
+    "algorithmName": "Tim Sort",
+    "stats": {
+      "executionTime": 1.5308199999999488,
+      "comparisons": 172511,
+      "swaps": 173206,
+      "arrayLength": 10000
+    },
+    "isSorted": true
+  },
+  {
+    "algorithmName": "Radix Sort",
+    "stats": {
+      "executionTime": 2.0256600000000615,
+      "comparisons": 29998,
+      "swaps": 50000,
+      "arrayLength": 10000
+    },
+    "isSorted": true
+  },
+  {
+    "algorithmName": "Shell Sort",
+    "stats": {
+      "executionTime": 2.034519999999793,
+      "comparisons": 258493,
+      "swaps": 200283,
+      "arrayLength": 10000
+    },
+    "isSorted": true
+  },
+  {
+    "algorithmName": "Merge Sort",
+    "stats": {
+      "executionTime": 2.6823400000001127,
+      "comparisons": 120488,
+      "swaps": 133616,
+      "arrayLength": 10000
+    },
+    "isSorted": true
+  },
+  {
+    "algorithmName": "Heap Sort",
+    "stats": {
+      "executionTime": 3.005659999999625,
+      "comparisons": 235323,
+      "swaps": 124194,
+      "arrayLength": 10000
+    },
+    "isSorted": true
+  },
+  {
+    "algorithmName": "Insertion Sort",
+    "stats": {
+      "executionTime": 58.497339999999895,
+      "comparisons": 24847753,
+      "swaps": 24847752,
+      "arrayLength": 10000
+    },
+    "isSorted": true
+  },
+  {
+    "algorithmName": "Selection Sort",
+    "stats": {
+      "executionTime": 88.47106000000004,
+      "comparisons": 49995000,
+      "swaps": 9991,
+      "arrayLength": 10000
+    },
+    "isSorted": true
+  },
+  {
+    "algorithmName": "Bubble Sort Melhorado",
+    "stats": {
+      "executionTime": 187.96782000000022,
+      "comparisons": 49990050,
+      "swaps": 24837763,
+      "arrayLength": 10000
+    },
+    "isSorted": true
+  },
+  {
+    "algorithmName": "Bubble Sort",
+    "stats": {
+      "executionTime": 497.46872,
+      "comparisons": 49995000,
+      "swaps": 49675526,
+      "arrayLength": 10000
+    },
+    "isSorted": true
+  }
+]

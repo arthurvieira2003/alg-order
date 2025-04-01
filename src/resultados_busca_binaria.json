@@ -1,0 +1,86 @@
+{
+  "timestamp": "2025-04-01T23:31:18.763Z",
+  "algorithm": "BinarySearchRecursive",
+  "withCache": [
+    {
+      "arrayLength": 1000,
+      "searchCount": 1000,
+      "cacheEnabled": true,
+      "found": 504,
+      "notFound": 496,
+      "avgComparisons": 2.675,
+      "cacheHits": 711,
+      "cacheMisses": 289,
+      "cacheHitRate": 71.1,
+      "cacheSize": 289,
+      "avgExecutionTime": 0.005946900000001619
+    },
+    {
+      "arrayLength": 10000,
+      "searchCount": 1000,
+      "cacheEnabled": true,
+      "found": 511,
+      "notFound": 489,
+      "avgComparisons": 3.716,
+      "cacheHits": 703,
+      "cacheMisses": 297,
+      "cacheHitRate": 70.3,
+      "cacheSize": 297,
+      "avgExecutionTime": 0.003571300000001429
+    },
+    {
+      "arrayLength": 100000,
+      "searchCount": 1000,
+      "cacheEnabled": true,
+      "found": 467,
+      "notFound": 533,
+      "avgComparisons": 4.31,
+      "cacheHits": 701,
+      "cacheMisses": 299,
+      "cacheHitRate": 70.1,
+      "cacheSize": 299,
+      "avgExecutionTime": 0.0029794000000006237
+    }
+  ],
+  "withoutCache": [
+    {
+      "arrayLength": 1000,
+      "searchCount": 1000,
+      "cacheEnabled": false,
+      "found": 418,
+      "notFound": 582,
+      "avgComparisons": 9.207,
+      "cacheHits": 0,
+      "cacheMisses": 1000,
+      "cacheHitRate": 0,
+      "cacheSize": 1,
+      "avgExecutionTime": 0.005876600000005055
+    },
+    {
+      "arrayLength": 10000,
+      "searchCount": 1000,
+      "cacheEnabled": false,
+      "found": 509,
+      "notFound": 491,
+      "avgComparisons": 12.486,
+      "cacheHits": 0,
+      "cacheMisses": 1000,
+      "cacheHitRate": 0,
+      "cacheSize": 1,
+      "avgExecutionTime": 0.005350399999993897
+    },
+    {
+      "arrayLength": 100000,
+      "searchCount": 1000,
+      "cacheEnabled": false,
+      "found": 497,
+      "notFound": 503,
+      "avgComparisons": 14.338,
+      "cacheHits": 0,
+      "cacheMisses": 1000,
+      "cacheHitRate": 0,
+      "cacheSize": 1,
+      "avgExecutionTime": 0.007183499999990545
+    }
+  ]
+}
