@@ -1,0 +1,26 @@
+[
+  {
+    "algorithmName": "Parallel Quick Sort (Pooled)",
+    "stats": {
+      "executionTime": 601.7965666666666,
+      "comparisons": 31658719,
+      "swaps": 29349154
+    }
+  },
+  {
+    "algorithmName": "Parallel Merge Sort (Pooled)",
+    "stats": {
+      "executionTime": 283.8180666666667,
+      "comparisons": 18731134,
+      "swaps": 20022134
+    }
+  },
+  {
+    "algorithmName": "Multiprocessing Sort",
+    "stats": {
+      "executionTime": 473.0564000000001,
+      "comparisons": 19731246,
+      "swaps": 21022152
+    }
+  }
+]

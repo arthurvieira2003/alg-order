@@ -1,0 +1,89 @@
+[
+  {
+    "algorithmName": "Quick Sort",
+    "variants": [
+      {
+        "variant": "Sequential",
+        "stats": {
+          "executionTime": 108.70929999999983,
+          "comparisons": 21092212,
+          "swaps": 4652026
+        },
+        "speedup": 1
+      },
+      {
+        "variant": "Parallel",
+        "stats": {
+          "executionTime": 259.8840333333331,
+          "comparisons": 21546873,
+          "swaps": 4321564
+        },
+        "speedup": 0.41829926450528354
+      },
+      {
+        "variant": "Parallel Pooled",
+        "stats": {
+          "executionTime": 276.45743333333303,
+          "comparisons": 15023478,
+          "swaps": 13569558
+        },
+        "speedup": 0.3932225612068306
+      }
+    ]
+  },
+  {
+    "algorithmName": "Merge Sort",
+    "variants": [
+      {
+        "variant": "Sequential",
+        "stats": {
+          "executionTime": 197.45203333333333,
+          "comparisons": 8837577,
+          "swaps": 9475712
+        },
+        "speedup": 1
+      },
+      {
+        "variant": "Parallel",
+        "stats": {
+          "executionTime": 189.0563333333333,
+          "comparisons": 8865965,
+          "swaps": 9511067
+        },
+        "speedup": 1.0444084567386442
+      },
+      {
+        "variant": "Parallel Pooled",
+        "stats": {
+          "executionTime": 141.27836666666613,
+          "comparisons": 8865672,
+          "swaps": 9511066
+        },
+        "speedup": 1.397609825141906
+      }
+    ]
+  },
+  {
+    "algorithmName": "Multiprocessing",
+    "variants": [
+      {
+        "variant": "Sequential",
+        "stats": {
+          "executionTime": 197.7610666666666,
+          "comparisons": 8837577,
+          "swaps": 9475712
+        },
+        "speedup": 1
+      },
+      {
+        "variant": "Multiprocessing",
+        "stats": {
+          "executionTime": 285.26500000000004,
+          "comparisons": 9366019,
+          "swaps": 10011076
+        },
+        "speedup": 0.6932538750518521
+      }
+    ]
+  }
+]

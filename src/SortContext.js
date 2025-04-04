@@ -28,7 +28,7 @@ class SortContext {
    * @param {Array} array - Array a ser ordenado
    * @returns {Object} - Resultado da ordenação e estatísticas
    */
-  executeStrategy(array) {
+  async executeStrategy(array) {
     if (!this.strategy) {
       throw new Error("Estratégia de ordenação não definida");
     }
@@ -53,8 +53,13 @@ class SortContext {
       // Marca o tempo inicial
       const startTime = performance.now();
 
-      // Executa o algoritmo de ordenação
-      const sortedArray = this.strategy.sort(array);
+      // Executa o algoritmo de ordenação (que pode retornar uma Promise)
+      let sortedArray = this.strategy.sort(array);
+
+      // Se o resultado for uma Promise, aguarda sua resolução
+      if (sortedArray instanceof Promise) {
+        sortedArray = await sortedArray;
+      }
 
       // Marca o tempo final
       const endTime = performance.now();

@@ -1,0 +1,89 @@
+[
+  {
+    "algorithmName": "Quick Sort",
+    "variants": [
+      {
+        "variant": "Sequential",
+        "stats": {
+          "executionTime": 19.061700000000048,
+          "comparisons": 2159776,
+          "swaps": 775521
+        },
+        "speedup": 1
+      },
+      {
+        "variant": "Parallel",
+        "stats": {
+          "executionTime": 88.22253333333333,
+          "comparisons": 2104840,
+          "swaps": 796820
+        },
+        "speedup": 0.21606384763378722
+      },
+      {
+        "variant": "Parallel Pooled",
+        "stats": {
+          "executionTime": 80.44700000000005,
+          "comparisons": 2545537,
+          "swaps": 2370380
+        },
+        "speedup": 0.2369473069225706
+      }
+    ]
+  },
+  {
+    "algorithmName": "Merge Sort",
+    "variants": [
+      {
+        "variant": "Sequential",
+        "stats": {
+          "executionTime": 35.72806666666664,
+          "comparisons": 1535788,
+          "swaps": 1668928
+        },
+        "speedup": 1
+      },
+      {
+        "variant": "Parallel",
+        "stats": {
+          "executionTime": 122.25679999999981,
+          "comparisons": 1540801,
+          "swaps": 1671026
+        },
+        "speedup": 0.29223786870478125
+      },
+      {
+        "variant": "Parallel Pooled",
+        "stats": {
+          "executionTime": 52.59853333333331,
+          "comparisons": 1544180,
+          "swaps": 1676160
+        },
+        "speedup": 0.6792597512224674
+      }
+    ]
+  },
+  {
+    "algorithmName": "Multiprocessing",
+    "variants": [
+      {
+        "variant": "Sequential",
+        "stats": {
+          "executionTime": 34.50709999999996,
+          "comparisons": 1535788,
+          "swaps": 1668928
+        },
+        "speedup": 1
+      },
+      {
+        "variant": "Multiprocessing",
+        "stats": {
+          "executionTime": 183.09030000000016,
+          "comparisons": 1640823,
+          "swaps": 1771032
+        },
+        "speedup": 0.1884703886552151
+      }
+    ]
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "algorithmName": "Quick Sort",
+    "variants": [
+      {
+        "variant": "Sequential",
+        "stats": {
+          "executionTime": 295.50423333333373,
+          "comparisons": 68575636,
+          "swaps": 8402414
+        },
+        "speedup": 1
+      },
+      {
+        "variant": "Parallel",
+        "stats": {
+          "executionTime": 430.9509666666666,
+          "comparisons": 66976925,
+          "swaps": 8436040
+        },
+        "speedup": 0.6857026812563141
+      },
+      {
+        "variant": "Parallel Pooled",
+        "stats": {
+          "executionTime": 537.0169666666667,
+          "comparisons": 33158123,
+          "swaps": 28706980
+        },
+        "speedup": 0.550269826980638
+      }
+    ]
+  },
+  {
+    "algorithmName": "Merge Sort",
+    "variants": [
+      {
+        "variant": "Sequential",
+        "stats": {
+          "executionTime": 421.3121666666672,
+          "comparisons": 18674604,
+          "swaps": 19951424
+        },
+        "speedup": 1
+      },
+      {
+        "variant": "Parallel",
+        "stats": {
+          "executionTime": 312.9913000000009,
+          "comparisons": 18731084,
+          "swaps": 20022134
+        },
+        "speedup": 1.3460826759934414
+      },
+      {
+        "variant": "Parallel Pooled",
+        "stats": {
+          "executionTime": 246.45623333333302,
+          "comparisons": 18731358,
+          "swaps": 20022134
+        },
+        "speedup": 1.7094806691167794
+      }
+    ]
+  },
+  {
+    "algorithmName": "Multiprocessing",
+    "variants": [
+      {
+        "variant": "Sequential",
+        "stats": {
+          "executionTime": 414.26413333333284,
+          "comparisons": 18674604,
+          "swaps": 19951424
+        },
+        "speedup": 1
+      },
+      {
+        "variant": "Multiprocessing",
+        "stats": {
+          "executionTime": 429.00090000000154,
+          "comparisons": 19731167,
+          "swaps": 21022152
+        },
+        "speedup": 0.9656486346143595
+      }
+    ]
+  }
+]
