@@ -1,5 +1,9 @@
 # Comparação de Algoritmos de Ordenação
 
+## Acadêmicos:
+
+Arthur Henrique Tscha Vieira e Rafael Rodrigues Ferreira de Andrade
+
 Este projeto implementa e compara a performance de diferentes algoritmos de ordenação, analisando a complexidade computacional e a quantidade de operações executadas. Os algoritmos são implementados usando o padrão de projeto Strategy para garantir modularidade e extensibilidade.
 
 ## Algoritmos Implementados
